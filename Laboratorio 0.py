@@ -28,7 +28,7 @@ df_pe = fn.f_precios_masivos(p0_fini=fini, p1_ffin=ffin, p2_gran=OA_Gn,
 # -- --------------------------------------------------------------- Graficar OHLC plotly -- #
 
 vs_grafica1 = vs.g_velas(p0_de=df_pe.iloc[0:120, :])
-# vs_grafica1.show()
+vs_grafica1.show()
 
 # -- ------------------------------------------------------------------- Conteno de velas -- #
 
